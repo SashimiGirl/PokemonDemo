@@ -1,0 +1,1019 @@
+fileFormatVersion: 2
+guid: fc22333ab633b4e449339cd56921871d
+timeCreated: 1460263100
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: EeveeSheet_0
+    21300002: EeveeSheet_1
+    21300004: EeveeSheet_2
+    21300006: EeveeSheet_3
+    21300008: EeveeSheet_4
+    21300010: EeveeSheet_5
+    21300012: EeveeSheet_6
+    21300014: EeveeSheet_7
+    21300016: EeveeSheet_8
+    21300018: EeveeSheet_9
+    21300020: EeveeSheet_10
+    21300022: EeveeSheet_11
+    21300024: EeveeSheet_12
+    21300026: EeveeSheet_13
+    21300028: EeveeSheet_14
+    21300030: EeveeSheet_15
+    21300032: EeveeSheet_16
+    21300034: EeveeSheet_17
+    21300036: EeveeSheet_18
+    21300038: EeveeSheet_19
+    21300040: EeveeSheet_20
+    21300042: EeveeSheet_21
+    21300044: EeveeSheet_22
+    21300046: EeveeSheet_23
+    21300048: EeveeSheet_24
+    21300050: EeveeSheet_25
+    21300052: EeveeSheet_26
+    21300054: EeveeSheet_27
+    21300056: EeveeSheet_28
+    21300058: EeveeSheet_29
+    21300060: EeveeSheet_30
+    21300062: EeveeSheet_31
+    21300064: EeveeSheet_32
+    21300066: EeveeSheet_33
+    21300068: EeveeSheet_34
+    21300070: EeveeSheet_35
+    21300072: EeveeSheet_36
+    21300074: EeveeSheet_37
+    21300076: EeveeSheet_38
+    21300078: EeveeSheet_39
+    21300080: EeveeSheet_40
+    21300082: EeveeSheet_41
+    21300084: EeveeSheet_42
+    21300086: EeveeSheet_43
+    21300088: EeveeSheet_44
+    21300090: EeveeSheet_45
+    21300092: EeveeSheet_46
+    21300094: EeveeSheet_47
+    21300096: EeveeSheet_48
+    21300098: EeveeSheet_49
+    21300100: EeveeSheet_50
+    21300102: EeveeSheet_51
+    21300104: EeveeSheet_52
+    21300106: EeveeSheet_53
+    21300108: EeveeSheet_54
+    21300110: EeveeSheet_55
+    21300112: EeveeSheet_56
+    21300114: EeveeSheet_57
+    21300116: EeveeSheet_58
+    21300118: EeveeSheet_59
+    21300120: EeveeSheet_60
+    21300122: EeveeSheet_61
+    21300124: EeveeSheet_62
+    21300126: EeveeSheet_63
+    21300128: EeveeSheet_64
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: EeveeSheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 136
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 14.5}
+        - {x: 13, y: 12.5}
+        - {x: 13, y: 19.5}
+        - {x: -21, y: 19.5}
+        - {x: -21, y: -9.5}
+        - {x: -17, y: -19.5}
+        - {x: 15, y: -19.5}
+        - {x: 21, y: -5.5}
+        - {x: 21, y: 14.5}
+        - {x: 14, y: 18.5}
+    - name: EeveeSheet_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 136
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 19.5}
+        - {x: -19, y: -19.5}
+        - {x: 19, y: -19.5}
+        - {x: 19, y: 13.5}
+        - {x: 16, y: 19.5}
+    - name: EeveeSheet_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 136
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 19.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 15.5}
+        - {x: 14.5, y: 19.5}
+    - name: EeveeSheet_3
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 136
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 19.5}
+        - {x: -23, y: 19.5}
+        - {x: -23, y: -19.5}
+        - {x: 15, y: -19.5}
+        - {x: 23, y: -5.5}
+        - {x: 23, y: 13.5}
+        - {x: 22, y: 17.5}
+    - name: EeveeSheet_4
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 136
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 19}
+        - {x: -23.5, y: -6}
+        - {x: -22.5, y: -19}
+        - {x: 17.5, y: -19}
+        - {x: 23.5, y: -9}
+        - {x: 23.5, y: 12}
+        - {x: 9.5, y: 19}
+    - name: EeveeSheet_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 136
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 16.5}
+        - {x: 13, y: 14.5}
+        - {x: 13, y: 12.5}
+        - {x: 13, y: 19.5}
+        - {x: -21, y: 19.5}
+        - {x: -21, y: -9.5}
+        - {x: -18, y: -19.5}
+        - {x: 21, y: -19.5}
+        - {x: 21, y: 14.5}
+        - {x: 18, y: 16.5}
+    - name: EeveeSheet_6
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 136
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 16.5}
+        - {x: 13, y: 14.5}
+        - {x: 13, y: 12.5}
+        - {x: 13, y: 19.5}
+        - {x: -21, y: 19.5}
+        - {x: -21, y: -9.5}
+        - {x: -18, y: -19.5}
+        - {x: 21, y: -19.5}
+        - {x: 21, y: 14.5}
+        - {x: 18, y: 16.5}
+    - name: EeveeSheet_7
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 136
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 16.5}
+        - {x: 13, y: 14.5}
+        - {x: 13, y: 12.5}
+        - {x: 13, y: 19.5}
+        - {x: -21, y: 19.5}
+        - {x: -21, y: -9.5}
+        - {x: -18, y: -19.5}
+        - {x: 21, y: -19.5}
+        - {x: 21, y: 14.5}
+        - {x: 18, y: 16.5}
+    - name: EeveeSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 89
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 23}
+        - {x: -19.5, y: 22}
+        - {x: -19.5, y: -23}
+        - {x: 12.5, y: -23}
+        - {x: 19.5, y: -18}
+        - {x: 19.5, y: 15}
+        - {x: 18.5, y: 17}
+        - {x: 13.5, y: 23}
+    - name: EeveeSheet_9
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 114
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_10
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 121
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_11
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 117
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_12
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_13
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 118
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 122
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 112
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_16
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 123
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_17
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 95
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_18
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 94
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_19
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 94
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_20
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 95
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_21
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 95
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_22
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 93
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_23
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 86
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 44
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 16}
+        - {x: 13, y: 14}
+        - {x: 13, y: 21}
+        - {x: -21, y: 21}
+        - {x: -21, y: -13}
+        - {x: -4, y: -21}
+        - {x: 19, y: -21}
+        - {x: 21, y: -11}
+        - {x: 21, y: 18}
+        - {x: 14, y: 20}
+    - name: EeveeSheet_25
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 52
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 18}
+        - {x: -19, y: -18}
+        - {x: 19, y: -18}
+        - {x: 19, y: 16}
+        - {x: 17, y: 18}
+    - name: EeveeSheet_26
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 45
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 20}
+        - {x: -18, y: 19}
+        - {x: -18, y: -20}
+        - {x: 18, y: -20}
+        - {x: 18, y: 17}
+        - {x: 15, y: 20}
+    - name: EeveeSheet_27
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 43
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 21}
+        - {x: -16.5, y: 20}
+        - {x: -16.5, y: -21}
+        - {x: 16.5, y: -21}
+        - {x: 16.5, y: 21}
+    - name: EeveeSheet_28
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 43
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 21}
+        - {x: -17.5, y: -21}
+        - {x: 5.5, y: -21}
+        - {x: 17.5, y: -6}
+        - {x: 17.5, y: 15}
+        - {x: 12.5, y: 21}
+    - name: EeveeSheet_29
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 44
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 20.5}
+        - {x: -19, y: 20.5}
+        - {x: -19, y: -17.5}
+        - {x: -17, y: -20.5}
+        - {x: 14, y: -20.5}
+        - {x: 19, y: -6.5}
+        - {x: 19, y: 18.5}
+    - name: EeveeSheet_30
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 44
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 20.5}
+        - {x: -21, y: -16.5}
+        - {x: -19, y: -20.5}
+        - {x: 16, y: -20.5}
+        - {x: 21, y: -12.5}
+        - {x: 21, y: 20.5}
+    - name: EeveeSheet_31
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 77
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_32
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 76
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_33
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 75
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_34
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 58
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_35
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 60
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_36
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 60
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_37
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 60
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_38
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 60
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_39
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 61
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_40
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 44
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_41
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 44
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_42
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 43
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_43
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 43
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_44
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 46
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_45
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 46
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_46
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 46
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_47
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 48
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_48
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 47
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_49
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 45
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_50
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 46
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_51
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 45
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 14.5}
+        - {x: 13, y: 12.5}
+        - {x: 13, y: 19.5}
+        - {x: -21, y: 19.5}
+        - {x: -21, y: -9.5}
+        - {x: -17, y: -19.5}
+        - {x: 15, y: -19.5}
+        - {x: 21, y: -5.5}
+        - {x: 21, y: 14.5}
+        - {x: 14, y: 18.5}
+    - name: EeveeSheet_53
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 15.5}
+        - {x: 9.5, y: 19.5}
+        - {x: 8.5, y: 15.5}
+        - {x: 8.5, y: 19.5}
+        - {x: -18.5, y: 19.5}
+        - {x: -18.5, y: -19.5}
+        - {x: 14.5, y: -19.5}
+        - {x: 14.5, y: -18.5}
+        - {x: 18.5, y: -7.5}
+        - {x: 18.5, y: 12.5}
+    - name: EeveeSheet_54
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 20}
+        - {x: -17.5, y: -20}
+        - {x: 17.5, y: -20}
+        - {x: 17.5, y: 20}
+    - name: EeveeSheet_55
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 15.5}
+        - {x: 9.5, y: 19.5}
+        - {x: 8.5, y: 15.5}
+        - {x: 8.5, y: 19.5}
+        - {x: -18.5, y: 19.5}
+        - {x: -18.5, y: -19.5}
+        - {x: 14.5, y: -19.5}
+        - {x: 14.5, y: -18.5}
+        - {x: 18.5, y: -7.5}
+        - {x: 18.5, y: 12.5}
+    - name: EeveeSheet_56
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 14.5}
+        - {x: 13, y: 12.5}
+        - {x: 13, y: 19.5}
+        - {x: -21, y: 19.5}
+        - {x: -21, y: -9.5}
+        - {x: -17, y: -19.5}
+        - {x: 15, y: -19.5}
+        - {x: 21, y: -5.5}
+        - {x: 21, y: 14.5}
+        - {x: 14, y: 18.5}
+    - name: EeveeSheet_57
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 20}
+        - {x: -22, y: 20}
+        - {x: -22, y: -20}
+        - {x: 13, y: -20}
+        - {x: 22, y: -13}
+        - {x: 22, y: 15}
+        - {x: 21, y: 17}
+    - name: EeveeSheet_58
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -18.5}
+        - {x: 22, y: 20.5}
+        - {x: -22, y: 20.5}
+        - {x: -22, y: 0.5}
+        - {x: -19, y: -19.5}
+        - {x: -17, y: -20.5}
+        - {x: 16, y: -20.5}
+    - name: EeveeSheet_59
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 20}
+        - {x: -22, y: 20}
+        - {x: -22, y: -20}
+        - {x: 13, y: -20}
+        - {x: 22, y: -13}
+        - {x: 22, y: 15}
+        - {x: 21, y: 17}
+    - name: EeveeSheet_60
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 18
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_61
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 17
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_62
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 18
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_63
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 18
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EeveeSheet_64
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 17
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

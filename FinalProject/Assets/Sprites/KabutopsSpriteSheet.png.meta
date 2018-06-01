@@ -1,0 +1,1210 @@
+fileFormatVersion: 2
+guid: c989df84827b33044b90c49aea2ed744
+timeCreated: 1458933747
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KabutopsSpriteSheet_0
+    21300002: KabutopsSpriteSheet_1
+    21300004: KabutopsSpriteSheet_2
+    21300006: KabutopsSpriteSheet_3
+    21300008: KabutopsSpriteSheet_4
+    21300010: KabutopsSpriteSheet_5
+    21300012: KabutopsSpriteSheet_6
+    21300014: KabutopsSpriteSheet_7
+    21300016: KabutopsSpriteSheet_8
+    21300018: KabutopsSpriteSheet_9
+    21300020: KabutopsSpriteSheet_10
+    21300022: KabutopsSpriteSheet_11
+    21300024: KabutopsSpriteSheet_12
+    21300026: KabutopsSpriteSheet_13
+    21300028: KabutopsSpriteSheet_14
+    21300030: KabutopsSpriteSheet_15
+    21300032: KabutopsSpriteSheet_16
+    21300034: KabutopsSpriteSheet_17
+    21300036: KabutopsSpriteSheet_18
+    21300038: KabutopsSpriteSheet_19
+    21300040: KabutopsSpriteSheet_20
+    21300042: KabutopsSpriteSheet_21
+    21300044: KabutopsSpriteSheet_22
+    21300046: KabutopsSpriteSheet_23
+    21300048: KabutopsSpriteSheet_24
+    21300050: KabutopsSpriteSheet_25
+    21300052: KabutopsSpriteSheet_26
+    21300054: KabutopsSpriteSheet_27
+    21300056: KabutopsSpriteSheet_28
+    21300058: KabutopsSpriteSheet_29
+    21300060: KabutopsSpriteSheet_30
+    21300062: KabutopsSpriteSheet_31
+    21300064: KabutopsSpriteSheet_32
+    21300066: KabutopsSpriteSheet_33
+    21300068: KabutopsSpriteSheet_34
+    21300070: KabutopsSpriteSheet_35
+    21300072: KabutopsSpriteSheet_36
+    21300074: KabutopsSpriteSheet_37
+    21300076: KabutopsSpriteSheet_38
+    21300078: KabutopsSpriteSheet_39
+    21300080: KabutopsSpriteSheet_40
+    21300082: KabutopsSpriteSheet_41
+    21300084: KabutopsSpriteSheet_42
+    21300086: KabutopsSpriteSheet_43
+    21300088: KabutopsSpriteSheet_44
+    21300090: KabutopsSpriteSheet_45
+    21300092: KabutopsSpriteSheet_46
+    21300094: KabutopsSpriteSheet_47
+    21300096: KabutopsSpriteSheet_48
+    21300098: KabutopsSpriteSheet_49
+    21300100: KabutopsSpriteSheet_50
+    21300102: KabutopsSpriteSheet_51
+    21300104: KabutopsSpriteSheet_52
+    21300106: KabutopsSpriteSheet_53
+    21300108: KabutopsSpriteSheet_54
+    21300110: KabutopsSpriteSheet_55
+    21300112: KabutopsSpriteSheet_56
+    21300114: KabutopsSpriteSheet_57
+    21300116: KabutopsSpriteSheet_58
+    21300118: KabutopsSpriteSheet_59
+    21300120: KabutopsSpriteSheet_60
+    21300122: KabutopsSpriteSheet_61
+    21300124: KabutopsSpriteSheet_62
+    21300126: KabutopsSpriteSheet_63
+    21300128: KabutopsSpriteSheet_64
+    21300130: KabutopsSpriteSheet_65
+    21300132: KabutopsSpriteSheet_66
+    21300134: KabutopsSpriteSheet_67
+    21300136: KabutopsSpriteSheet_68
+    21300138: KabutopsSpriteSheet_69
+    21300140: KabutopsSpriteSheet_70
+    21300142: KabutopsSpriteSheet_71
+    21300144: KabutopsSpriteSheet_72
+    21300146: KabutopsSpriteSheet_73
+    21300148: KabutopsSpriteSheet_74
+    21300150: KabutopsSpriteSheet_75
+    21300152: KabutopsSpriteSheet_76
+    21300154: KabutopsSpriteSheet_77
+    21300156: KabutopsSpriteSheet_78
+    21300158: KabutopsSpriteSheet_79
+    21300160: KabutopsSpriteSheet_80
+    21300162: KabutopsSpriteSheet_81
+    21300164: KabutopsSpriteSheet_82
+    21300166: KabutopsSpriteSheet_83
+    21300168: KabutopsSpriteSheet_84
+    21300170: KabutopsSpriteSheet_85
+    21300172: KabutopsSpriteSheet_86
+    21300174: KabutopsSpriteSheet_87
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: KabutopsSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 335
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 335
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 335
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 335
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 335
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 335
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 336
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 336
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 336
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 336
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 301
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 301
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 301
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 301
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 301
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 301
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 302
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 302
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 302
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 302
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 267
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 267
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 268
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 267
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 267
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 267
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 266
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 267
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 265
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 266
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 233
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 233
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 234
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 233
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 233
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 233
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 232
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 233
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 231
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 232
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 175
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 175
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 175
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 176
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 176
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 173
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 175
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 167
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 167
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 16}
+        - {x: -18, y: -7}
+        - {x: -15, y: -16}
+        - {x: 10, y: -16}
+        - {x: 18, y: -4}
+        - {x: 18, y: 12}
+        - {x: 13, y: 16}
+    - name: KabutopsSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 167
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 16}
+        - {x: -17.5, y: -15}
+        - {x: -16.5, y: -16}
+        - {x: 0.5, y: -16}
+        - {x: 17.5, y: -3}
+        - {x: 17.5, y: 12}
+        - {x: 8.5, y: 16}
+    - name: KabutopsSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 167
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 17.5}
+        - {x: -24, y: 13.5}
+        - {x: -24, y: -10.5}
+        - {x: -11, y: -17.5}
+        - {x: 13, y: -17.5}
+        - {x: 24, y: -8.5}
+        - {x: 24, y: 13.5}
+        - {x: 14, y: 17.5}
+    - name: KabutopsSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 169
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 17}
+        - {x: -10, y: 17}
+        - {x: -19, y: 11}
+        - {x: -19, y: 8}
+        - {x: -18, y: 6}
+        - {x: -16, y: 4}
+        - {x: -19, y: 4}
+        - {x: -19, y: -7}
+        - {x: -15, y: -16}
+        - {x: -11, y: -17}
+        - {x: 16, y: -17}
+        - {x: 19, y: -16}
+        - {x: 19, y: -2}
+        - {x: 15, y: 11}
+    - name: KabutopsSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 133
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 133
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 133
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 132
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 132
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 129
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 131
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 114
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 114
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 16}
+        - {x: -6, y: 14}
+        - {x: -16, y: 8}
+        - {x: -18, y: 5}
+        - {x: -18, y: -5}
+        - {x: 1, y: -16}
+        - {x: 15, y: -16}
+        - {x: 18, y: -7}
+        - {x: 18, y: 15}
+        - {x: 13, y: 16}
+    - name: KabutopsSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 114
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 16}
+        - {x: -17.5, y: 13}
+        - {x: -17.5, y: 2}
+        - {x: 2.5, y: -16}
+        - {x: 16.5, y: -16}
+        - {x: 17.5, y: -9}
+        - {x: 17.5, y: 14}
+        - {x: 13.5, y: 16}
+    - name: KabutopsSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 114
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 17.5}
+        - {x: -19, y: 13.5}
+        - {x: -24, y: 6.5}
+        - {x: -24, y: -10.5}
+        - {x: -9, y: -17.5}
+        - {x: 16, y: -17.5}
+        - {x: 24, y: -6.5}
+        - {x: 24, y: 11.5}
+        - {x: 17, y: 17.5}
+    - name: KabutopsSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 116
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -14}
+        - {x: -17, y: -17}
+        - {x: 14, y: -17}
+        - {x: 19, y: -11}
+        - {x: 19, y: 17}
+        - {x: -6, y: 17}
+        - {x: -19, y: 12}
+    - name: KabutopsSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 91
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 92
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 92
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 87
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 88
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 86
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 89
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 68
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 65
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 64
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 17}
+        - {x: -18, y: -17}
+        - {x: 6, y: -17}
+        - {x: 18, y: -2}
+        - {x: 18, y: 11}
+        - {x: -2, y: 17}
+    - name: KabutopsSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 65
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 17.5}
+        - {x: -24, y: 15.5}
+        - {x: -24, y: -9.5}
+        - {x: -17, y: -17.5}
+        - {x: 14, y: -17.5}
+        - {x: 20, y: -15.5}
+        - {x: 24, y: -7.5}
+        - {x: 24, y: 16.5}
+        - {x: 23, y: 17.5}
+    - name: KabutopsSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 69
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 49
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 50
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 50
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 44
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 45
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 43
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 46
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 16
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 13
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: KabutopsSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 12
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 5}
+        - {x: -18, y: -8}
+        - {x: -8, y: -17}
+        - {x: 18, y: -17}
+        - {x: 18, y: 17}
+        - {x: -1, y: 17}
+    - name: KabutopsSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 13
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 17.5}
+        - {x: -24, y: 10.5}
+        - {x: -24, y: -12.5}
+        - {x: -15, y: -17.5}
+        - {x: 24, y: -17.5}
+        - {x: 24, y: 17.5}
+    - name: KabutopsSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 17
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

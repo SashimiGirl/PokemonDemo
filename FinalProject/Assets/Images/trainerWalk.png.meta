@@ -1,0 +1,438 @@
+fileFormatVersion: 2
+guid: 3f3d161919db2e24f938d1a240808c1e
+timeCreated: 1461294561
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: trainerWalk_0
+    21300002: trainerWalk_1
+    21300004: trainerWalk_2
+    21300006: trainerWalk_3
+    21300008: trainerWalk_4
+    21300010: trainerWalk_5
+    21300012: trainerWalk_6
+    21300014: trainerWalk_7
+    21300016: trainerWalk_8
+    21300018: trainerWalk_9
+    21300020: trainerWalk_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: trainerWalk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 300
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: -108}
+        - {x: 43, y: -108}
+        - {x: 43, y: -5}
+        - {x: 35, y: 101}
+        - {x: 12, y: 107}
+        - {x: -20, y: 107}
+        - {x: -39, y: 98}
+      - - {x: 43, y: -83}
+        - {x: 41, y: -86}
+        - {x: 43, y: -91}
+        - {x: 46, y: -92}
+        - {x: 51, y: -92}
+        - {x: 51, y: -87}
+        - {x: 47, y: -84}
+      - - {x: 33, y: -83}
+        - {x: 33, y: -87}
+        - {x: 36, y: -89}
+        - {x: 39, y: -89}
+        - {x: 41, y: -88}
+        - {x: 41, y: -85}
+        - {x: 37, y: -81}
+        - {x: 35, y: -81}
+      - - {x: 42, y: -77}
+        - {x: 41, y: -79}
+        - {x: 41, y: -82}
+        - {x: 45, y: -84}
+        - {x: 48, y: -84}
+        - {x: 50, y: -83}
+        - {x: 50, y: -79}
+        - {x: 45, y: -77}
+      - - {x: -24, y: -43}
+        - {x: -24, y: -52}
+        - {x: -22, y: -53}
+        - {x: -18, y: -53}
+        - {x: -17, y: -51}
+        - {x: -17, y: -44}
+        - {x: -18, y: -43}
+      - - {x: -53, y: 73}
+        - {x: -53, y: 69}
+        - {x: -51, y: 67}
+        - {x: -48, y: 68}
+        - {x: -47, y: 73}
+        - {x: -49, y: 75}
+        - {x: -51, y: 75}
+    - name: trainerWalk_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 300
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56, y: -25}
+        - {x: 12, y: 106}
+        - {x: -32, y: 106}
+        - {x: -39, y: 88}
+        - {x: -39, y: 64}
+        - {x: -38, y: 63}
+        - {x: -32, y: 64}
+        - {x: -29, y: 65}
+        - {x: -27, y: 67}
+        - {x: -36, y: 56}
+        - {x: -34, y: 3}
+        - {x: -37, y: -103}
+        - {x: -20, y: -106}
+        - {x: 10, y: -106}
+        - {x: 10, y: -105}
+        - {x: 11, y: -106}
+        - {x: 56, y: -106}
+      - - {x: 46, y: -80}
+        - {x: 45, y: -81}
+        - {x: 45, y: -86}
+        - {x: 53, y: -91}
+        - {x: 58, y: -91}
+        - {x: 59, y: -89}
+        - {x: 59, y: -86}
+        - {x: 51, y: -80}
+      - - {x: 55, y: -78}
+        - {x: 55, y: -84}
+        - {x: 56, y: -85}
+        - {x: 62, y: -85}
+        - {x: 64, y: -83}
+        - {x: 63, y: -79}
+        - {x: 59, y: -78}
+      - - {x: 5, y: -73}
+        - {x: 2, y: -76}
+        - {x: 2, y: -77}
+        - {x: 4, y: -79}
+        - {x: 6, y: -79}
+        - {x: 8, y: -77}
+        - {x: 8, y: -75}
+        - {x: 6, y: -73}
+      - - {x: -22, y: -59}
+        - {x: -19, y: -58}
+        - {x: -19, y: -55}
+        - {x: -22, y: -54}
+        - {x: -24, y: -56}
+      - - {x: -22, y: -48}
+        - {x: -25, y: -51}
+        - {x: -25, y: -52}
+        - {x: -23, y: -54}
+        - {x: -21, y: -54}
+        - {x: -19, y: -52}
+        - {x: -19, y: -50}
+        - {x: -21, y: -48}
+      - - {x: 67, y: 73}
+        - {x: 67, y: 68}
+        - {x: 69, y: 66}
+        - {x: 72, y: 67}
+        - {x: 73, y: 73}
+        - {x: 71, y: 75}
+        - {x: 69, y: 75}
+    - name: trainerWalk_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 300
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 107}
+        - {x: -20, y: 107}
+        - {x: -29, y: 104}
+        - {x: -38, y: 84}
+        - {x: -38, y: -46}
+        - {x: -36, y: -108}
+        - {x: 69, y: -108}
+        - {x: 69, y: -67}
+        - {x: 8, y: 97}
+      - - {x: 61, y: -77}
+        - {x: 56, y: -77}
+        - {x: 56, y: -84}
+        - {x: 65, y: -86}
+        - {x: 69, y: -86}
+        - {x: 70, y: -85}
+        - {x: 70, y: -83}
+        - {x: 69, y: -79}
+      - - {x: 13, y: -78}
+        - {x: 15, y: -80}
+        - {x: 18, y: -79}
+        - {x: 18, y: -76}
+        - {x: 16, y: -74}
+        - {x: 13, y: -75}
+    - name: trainerWalk_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 300
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 107}
+        - {x: -35, y: 93}
+        - {x: -35, y: -39}
+        - {x: -25, y: -108}
+        - {x: 43, y: -108}
+        - {x: 43, y: 1}
+        - {x: 4, y: 107}
+      - - {x: -22, y: -47}
+        - {x: -24, y: -49}
+        - {x: -24, y: -51}
+        - {x: -22, y: -53}
+        - {x: -20, y: -53}
+        - {x: -18, y: -51}
+        - {x: -18, y: -49}
+        - {x: -20, y: -47}
+    - name: trainerWalk_4
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 300
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 108}
+        - {x: -27, y: 104}
+        - {x: -34, y: 90}
+        - {x: -34, y: -94}
+        - {x: -33, y: -107}
+        - {x: 24, y: -107}
+        - {x: 42, y: -66}
+        - {x: 42, y: 3}
+        - {x: 9, y: 108}
+      - - {x: 23, y: -87}
+        - {x: 23, y: -88}
+        - {x: 26, y: -91}
+        - {x: 29, y: -90}
+        - {x: 29, y: -87}
+        - {x: 27, y: -85}
+        - {x: 25, y: -85}
+    - name: trainerWalk_5
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 300
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 108}
+        - {x: -31, y: 108}
+        - {x: -38, y: 77}
+        - {x: -38, y: 70}
+        - {x: -35, y: 67}
+        - {x: -28, y: 67}
+        - {x: -25, y: 70}
+        - {x: -36, y: 57}
+        - {x: -38, y: 50}
+        - {x: -38, y: -13}
+        - {x: -27, y: -106}
+        - {x: 19, y: -106}
+        - {x: 37, y: -93}
+        - {x: 42, y: -76}
+        - {x: 42, y: 25}
+    - name: trainerWalk_6
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 300
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 108}
+        - {x: -20, y: 108}
+        - {x: -33, y: 105}
+        - {x: -40, y: 83}
+        - {x: -40, y: -104}
+        - {x: -31, y: -108}
+        - {x: 21, y: -108}
+        - {x: 31, y: -100}
+        - {x: 31, y: 61}
+        - {x: 29, y: 99}
+    - name: trainerWalk_7
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 0
+        width: 300
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 108}
+        - {x: -17, y: 108}
+        - {x: -29, y: 102}
+        - {x: -39, y: 75}
+        - {x: -35, y: 64}
+        - {x: -26, y: 67}
+        - {x: -24, y: 69}
+        - {x: -24, y: 70}
+        - {x: -23, y: 72}
+        - {x: -20, y: 70}
+        - {x: -35, y: 57}
+        - {x: -39, y: 23}
+        - {x: -47, y: -15}
+        - {x: -47, y: -108}
+        - {x: 26, y: -108}
+        - {x: 26, y: 20}
+        - {x: 10, y: 94}
+    - name: trainerWalk_8
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 300
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 108}
+        - {x: -31, y: 103}
+        - {x: -40, y: 76}
+        - {x: -36, y: 65}
+        - {x: -27, y: 67}
+        - {x: -38, y: 59}
+        - {x: -50, y: -44}
+        - {x: -50, y: -97}
+        - {x: -38, y: -106}
+        - {x: -21, y: -104}
+        - {x: -21, y: -94}
+        - {x: -19, y: -106}
+        - {x: 24, y: -106}
+        - {x: 24, y: 98}
+        - {x: 0, y: 108}
+    - name: trainerWalk_9
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 300
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 106}
+        - {x: -31, y: 100}
+        - {x: -41, y: 73}
+        - {x: -36, y: 66}
+        - {x: -28, y: 65}
+        - {x: -24, y: 67}
+        - {x: -49, y: 50}
+        - {x: -49, y: -106}
+        - {x: 24, y: -106}
+        - {x: 24, y: 106}
+    - name: trainerWalk_10
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 300
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -86}
+        - {x: -17, y: -91}
+        - {x: -16, y: -100}
+        - {x: -13, y: -106}
+        - {x: 25, y: -106}
+        - {x: 25, y: 69}
+        - {x: 11, y: 106}
+        - {x: -28, y: 106}
+        - {x: -30, y: 104}
+        - {x: -39, y: 69}
+        - {x: -33, y: 66}
+        - {x: -27, y: 66}
+        - {x: -29, y: 66}
+        - {x: -36, y: 57}
+        - {x: -35, y: 26}
+        - {x: -31, y: 20}
+        - {x: -29, y: 8}
+        - {x: -47, y: -45}
+        - {x: -47, y: -96}
+        - {x: -39, y: -106}
+        - {x: -20, y: -106}
+        - {x: -16, y: -103}
+        - {x: -16, y: -100}
+        - {x: -19, y: -95}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,825 @@
+fileFormatVersion: 2
+guid: 44fb3ad79ad9d8a4ea3272065e233d21
+timeCreated: 1460406242
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Berries_0
+    21300002: Berries_1
+    21300004: Berries_2
+    21300006: Berries_3
+    21300008: Berries_4
+    21300010: Berries_5
+    21300012: Berries_6
+    21300014: Berries_7
+    21300016: Berries_8
+    21300018: Berries_9
+    21300020: Berries_10
+    21300022: Berries_11
+    21300024: Berries_12
+    21300026: Berries_13
+    21300028: Berries_14
+    21300030: Berries_15
+    21300032: Berries_16
+    21300034: Berries_17
+    21300036: Berries_18
+    21300038: Berries_19
+    21300040: Berries_20
+    21300042: Berries_21
+    21300044: Berries_22
+    21300046: Berries_23
+    21300048: Berries_24
+    21300050: Berries_25
+    21300052: Berries_26
+    21300054: Berries_27
+    21300056: Berries_28
+    21300058: Berries_29
+    21300060: Berries_30
+    21300062: Berries_31
+    21300064: Berries_32
+    21300066: Berries_33
+    21300068: Berries_34
+    21300070: Berries_35
+    21300072: Berries_36
+    21300074: Berries_37
+    21300076: Berries_38
+    21300078: Berries_39
+    21300080: Berries_40
+    21300082: Berries_41
+    21300084: Berries_42
+    21300086: Berries_43
+    21300088: Berries_44
+    21300090: Berries_45
+    21300092: Berries_46
+    21300094: Berries_47
+    21300096: Berries_48
+    21300098: Berries_49
+    21300100: Berries_50
+    21300102: Berries_51
+    21300104: Berries_52
+    21300106: Berries_53
+    21300108: Berries_54
+    21300110: Berries_55
+    21300112: Berries_56
+    21300114: Berries_57
+    21300116: Berries_58
+    21300118: Berries_59
+    21300120: Berries_60
+    21300122: Berries_61
+    21300124: Berries_62
+    21300126: Berries_63
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Berries_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 228
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 227
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 226
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 226
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 226
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_5
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 226
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_6
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 227
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_7
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 226
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 197
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 196
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 195
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 193
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_12
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 192
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_13
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 193
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_14
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 191
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_15
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 191
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 165
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_17
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 165
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_18
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 164
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_19
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 161
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 159
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_21
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 160
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_22
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 159
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_23
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 159
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 131
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_25
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 129
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 130
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_27
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 130
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_28
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 128
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_29
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 129
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_30
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 129
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 128
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_32
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 95
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_33
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 94
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_34
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 94
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_35
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 95
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_36
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 95
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_37
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 95
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_38
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 95
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_39
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 97
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_40
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 66
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_41
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 65
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_42
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 65
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_43
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 65
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_44
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 65
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_45
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 63
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_46
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_47
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 61
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_48
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_49
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_50
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 39
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_51
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 38
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_52
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 36
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_53
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 35
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_54
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 33
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_55
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 33
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_56
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 15
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_57
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 12
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_58
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 12
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_59
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 11
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_60
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 13
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_61
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 13
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_62
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 12
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Berries_63
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 9
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
