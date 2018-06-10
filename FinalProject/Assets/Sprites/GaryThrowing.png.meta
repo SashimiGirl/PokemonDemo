@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 2e4599935c2b8ea42bd8496eb827e2bf
-timeCreated: 1459010488
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: GaryThrowing_0
@@ -9,14 +7,17 @@ TextureImporter:
     21300004: GaryThrowing_2
     21300006: GaryThrowing_3
     21300008: GaryThrowing_4
-  serializedVersion: 2
+  externalObjects: {}
+  serializedVersion: 5
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -26,144 +27,162 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: 16
     mipBias: -1
-    wrapMode: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: GaryThrowing_0
+    - serializedVersion: 2
+      name: GaryThrowing_0
       rect:
         serializedVersion: 2
-        x: 33
+        x: 0
         y: 0
-        width: 90
-        height: 150
+        width: 173
+        height: 156
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -20, y: 75}
-        - {x: -40, y: 64}
-        - {x: -45, y: 54}
-        - {x: -45, y: -43}
-        - {x: -39, y: -75}
-        - {x: 18, y: -75}
-        - {x: 45, y: -56}
-        - {x: 45, y: 53}
-        - {x: 14, y: 75}
-    - name: GaryThrowing_1
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b73542effa00ef43aefec7222bf3b01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GaryThrowing_1
       rect:
         serializedVersion: 2
         x: 173
         y: 0
-        width: 152
-        height: 144
+        width: 174
+        height: 156
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 55, y: 7}
-        - {x: 36, y: 12}
-        - {x: 36, y: 44}
-        - {x: 9, y: 72}
-        - {x: -38, y: 72}
-        - {x: -51, y: 65}
-        - {x: -64, y: 4}
-        - {x: -45, y: 1}
-        - {x: -50, y: -5}
-        - {x: -47, y: -13}
-        - {x: -53, y: -12}
-        - {x: -49, y: 0}
-        - {x: -75, y: 4}
-        - {x: -76, y: 3}
-        - {x: -76, y: -33}
-        - {x: -44, y: -72}
-        - {x: 27, y: -72}
-        - {x: 76, y: -24}
-        - {x: 76, y: -8}
-        - {x: 67, y: 1}
-    - name: GaryThrowing_2
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7312dba5b669141be15ce94c112703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GaryThrowing_2
       rect:
         serializedVersion: 2
-        x: 355
+        x: 346
         y: 0
-        width: 132
-        height: 148
+        width: 173.6
+        height: 156
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -47, y: 74}
-        - {x: -66, y: 45}
-        - {x: -66, y: -52}
-        - {x: -51, y: -74}
-        - {x: 66, y: -74}
-        - {x: 66, y: 74}
-    - name: GaryThrowing_3
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6777e157171634d9b5a828417b3805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GaryThrowing_3
       rect:
         serializedVersion: 2
-        x: 545
+        x: 519
         y: 0
-        width: 140
-        height: 146
+        width: 173.6
+        height: 156
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 70, y: 42}
-        - {x: 10, y: 73}
-        - {x: -29, y: 73}
-        - {x: -70, y: 51}
-        - {x: -70, y: -73}
-        - {x: -1, y: -73}
-        - {x: 67, y: 9}
-        - {x: 70, y: 19}
-    - name: GaryThrowing_4
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41870bf30a2630f4fa2c623990423217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GaryThrowing_4
       rect:
         serializedVersion: 2
-        x: 717
+        x: 692
         y: 0
-        width: 144
-        height: 138
+        width: 173.6
+        height: 156
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 17, y: 69}
-        - {x: 4, y: 69}
-        - {x: -23, y: 54}
-        - {x: -72, y: 16}
-        - {x: -72, y: -69}
-        - {x: 52, y: -69}
-        - {x: 66, y: -65}
-        - {x: 72, y: -56}
-        - {x: 72, y: -20}
-        - {x: 64, y: 45}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2bd9fba4976934d93df31769708c93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9fbacde594977bd4b9ccf879030418af
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

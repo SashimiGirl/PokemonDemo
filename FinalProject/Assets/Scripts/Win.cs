@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
-using UnityEngine.SceneManagement;
 
 public class Win : MonoBehaviour {
     ChangeScene ChangeScene;
@@ -11,11 +9,10 @@ public class Win : MonoBehaviour {
     //ChangeScene ChangeScene;
     //public int lastscene;
 
-    void start()
+    void Start()
     {
         ChangeScene = GameObject.Find("SceneManager").GetComponent<ChangeScene>();
         //lastscene=ChangeScene.lastscene;
-
 
         BagStuff = GameObject.Find("TrainerBag").GetComponent<BagStuff>();
         win.fontSize = 1;
@@ -26,8 +23,7 @@ public class Win : MonoBehaviour {
     }
 
     void Update()
-    {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+    {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
         if (win.fontSize<31)
             win.fontSize += 2;
         if (win.fontSize >= 31 && gain.fontSize<35)

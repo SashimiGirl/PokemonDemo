@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<style>
+  body {
+    padding: 100px;
+    width: 1000px;
+    margin: auto;
+    text-align: left;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color: #121212;
+  }
+  h1, h2, h3, h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+</style>
+<title>COMSC 165 Final Project</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro" rel="stylesheet">
+</head>
+
+<body>
+
+<h1 align="middle">COMSC 165: Advanced Programming with C and C++</h1>
+<h1 align="middle">Final Project: Pokemon Demo</h1>
+<h2 align="middle">Sara Maemoto</h2>
+
+<br><br>
+
+<div>
+
+<h2 align="middle">Overview</h2>
+<p>For this final project I worked on a team of 3. We created a demo Pokemon game with a few variations. Due to time constraints we were not able to implement all aspects that we wanted to. I created 3 scenes in the project, the beginning scene, the battling scene, and the hospital scene. The hospital scene was a recent fix, I implimented it in order to allow the game to go full circle.</p>
+
+<h2 align="middle">Start Scene</h2>
+<p>The start scene allows the player to choose their initial Pokemon. It also creates objects that are passed between scenes. Those 4 objects are a backpack which hold items, a team which hold your Pokemon, a scene manager which helps with switching between scenes and remembering previous scenes, and Pokemon which hold the information for all the different types of Pokemon. A short demo reel showing functionality is provided below.</p>
+
+<div align="center">
+  <table style="width=100%">
+    <tr>
+      <td align="middle">
+        <video width="720" height="480" controls>
+          <source src="images/StartScene.mp4" type="video/mp4">
+        </video>
+        <figcaption align="middle">Start Scene.</figcaption>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<p>I created 4 different game objects before I knew about the unity function "GameObject.FindObjectOfType". Within the code for the information for all the Pokemon, I created a struct to hold the necessary info for each Pokemon. I initally created an array of stats that made up the Pokemon team, but later changed this to a list. This helped to make other parts of the code dynamic. An example of this change can be scene in the battle scene.</p>
+
+<div align="center">
+  <table style="width=100%">
+    <tr>
+      <td align="middle">
+        <img src="images/StartSceneGameObjects.png" width="240px" />
+        <figcaption align="middle">Game objects in Start Scene.</figcaption>
+      </td>
+      <td valign="bottom">
+        <img src="images/PokeStats.png" width="480px" />
+        <figcaption align="middle">Pokemon struct in Start Scene.</figcaption>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<h2 align="middle">Battle Scene</h2>
+<p>This is the part of the game where the player uses their Pokemon to fight wild Pokemon. The player is able to catch, run, or fight the wild Pokemon. I created all the animations and functions within the scene. I take no credit for any of the art, all art came from a <a href="#Jonathan Cattarin">group member</a> or from the internet. </p>
+
+<div align="center">
+  <table style="width=100%">
+      <td align="middle">
+        <video width="720" height="480" controls>
+          <source src="images/BattleScene.mp4" type="video/mp4">
+        </video>
+        <figcaption align="middle">Battle Scene.</figcaption>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<p>While going through the project I found that there were parts that I would change. It bothered me a little too much, so I took the time to fix some of the code. Below is an example of the changes I made.</p>
+
+<div align="bottom">
+  <table style="width=100%">
+    <tr>
+      <td align="middle">
+        <img src="images/OldCaught.png" width="480px" height="480px" />
+        <figcaption align="middle">Old Way of Catching Pokemon.</figcaption>
+      </td>
+      <td valign="bottom">
+        <img src="images/NewCaught.png" width="480px" />
+        <figcaption align="middle">New Way of Catching Pokemon.</figcaption>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<h2 align="middle">Hospital Scene</h2>
+<p>Originally this scene was an unfinished part of the project. Playing through the game I found that when you lost a battle nothing really happened. It gave me a sense of incompleteness, so I decided to finish the scene. All art is credited to a <a href="#Jonathan Cattarin">group member</a> and the internet. I created the animations and dialog. The harshness of this scene was incorporated because of extra game ideas we were not able to implement. These ideas are further explained in the extra section of this report.</p>
+
+<div align="center">
+  <table style="width=100%">
+      <td align="middle">
+        <video width="480" height="320" controls>
+          <source src="images/TruthPay.mp4" type="video/mp4">
+        </video>
+        <figcaption align="middle">Telling the truth.</figcaption>
+      </td>
+      <td align="middle">
+        <video width="480" height="320" controls>
+          <source src="images/Lie.mp4" type="video/mp4">
+        </video>
+        <figcaption align="middle">Lying.</figcaption>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<h2 align="middle">Extra</h2>
+<p>While creating this game we had many ideas as to how to make the game more fun. One of our stronger game ideas was to treat Pokemon as mercenaries. The idea was that the player would persuade the pokemon to join them through: money, berries or their renown. The contract would have an expiration date, but the player would also get a chance to renew the contract. This idea lead to a relationship point system, where the Pokemon may start to like the trainer and will no longer need a contract at all. This feature got a lot of discussion because we believed it solved some core mechanic issues for the Pokemon series. It gives Pokemon a sense of realism, rather than being thought of as simply property. It also would create a solid foundation for a rich economic system. The hospital scene slightly shows the tone we were hoping for with our ideas. A dark, but fun game with many different aspects to explore.</p>
+
+<h2 align="middle"> Cite Sources </h2>
+<p>We used the <a href="https://unity3d.com/">Unity</a> engine to make this game.</p>
+<p>We used <a href="https://google.com/">Google</a> search engine to make this game.</p>
+<p> <a name = "Jonathan Cattarin"></a>
+<a href="http://johnthin.github.io/Badlands/">Jonathan Cattarin</a> created all art assets, as well as the overworld scene and the travel scene.</p>
+<p>Leslie Ding created the win scene.</p>
+
+</body>
+</html>

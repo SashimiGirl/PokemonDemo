@@ -1,23 +1,20 @@
 ﻿using UnityEngine;
-using System.Collections;
+using UnityEngine.UI;
 
 public class Run : MonoBehaviour {
 
     Rigidbody2D rbody;
     Animator anim;
     public int speed;
-    private SpriteRenderer Sprite;
-    public int sortingLayer;
+    private Image Sprite;
 
 
     // Use this for initialization
     void Start()
     {
-        
         rbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        Sprite = GetComponent<SpriteRenderer>();
-        Sprite.sortingLayerID = sortingLayer;
+        Sprite = GetComponent<Image>();
     }
 
     // Update is called once per frame
@@ -37,7 +34,7 @@ public class Run : MonoBehaviour {
     }
 
 
-   public void slow()
+   public void Slow()
     {
         speed = 1;
         anim.SetBool("speed", false);
@@ -45,7 +42,7 @@ public class Run : MonoBehaviour {
         anim = GetComponent<Animator>();
     }
 
-    public void fast()
+    public void Fast()
     {
         speed = 2;
         anim.SetBool("speed", true);

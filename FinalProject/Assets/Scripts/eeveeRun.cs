@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class eeveeRun : MonoBehaviour
@@ -8,7 +9,7 @@ public class eeveeRun : MonoBehaviour
     Animator anim;
     public Run Run;
     public int speed;
-    private SpriteRenderer Sprite;
+    private Image Sprite;
     public int sortingLayer;
     private float thresholdA;
     public bool tooFar;
@@ -19,11 +20,9 @@ public class eeveeRun : MonoBehaviour
 
         rbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        Sprite = GetComponent<SpriteRenderer>();
-        Sprite.sortingLayerID = sortingLayer;
+        Sprite = GetComponent<Image>();
         tooFar = false;
         thresholdA = -.95f;
-
     }
 
     // Update is called once per frame

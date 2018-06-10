@@ -23,12 +23,9 @@ public class Trainer : MonoBehaviour {
 
     void Start()
     {
-        //animator = GetComponent<Animator>();
         pos = transform.position;
         tr = transform;
     }
-
-
 
     void FixedUpdate()
     {
@@ -37,37 +34,30 @@ public class Trainer : MonoBehaviour {
         float v = Input.GetAxis("Vertical");
         animator.SetFloat("StateH", h);
         animator.SetFloat("StateV", v);
-        //if (Input.GetKey(KeyCode.UpArrow)) 
         if (Input.GetKey(KeyCode.UpArrow) && tr.position == pos)
         {
             pos += (Vector3.up)/2;
             look = boyTrainerBack;
-            //animator.SetInteger("State", 1);
         }
         else if (Input.GetKey(KeyCode.RightArrow) && tr.position == pos)
         {
             pos += (Vector3.right)/2;
             look = boyTrainerRight;
-            //animator.SetInteger("State", 2);
         }
         else if (Input.GetKey(KeyCode.DownArrow) && tr.position == pos)
         {
             pos += (Vector3.down)/2;
             look = boyTrainerFront;
-            //animator.SetInteger("State", 3);
         }
         else if (Input.GetKey(KeyCode.LeftArrow) && tr.position == pos)
         {
             pos += (Vector3.left) / 2;
             look = boyTrainerLeft;
-            //animator.SetInteger("State", 4);
         }
         else if(tr.position == pos)
-            GetComponent<SpriteRenderer>().sprite = look;
-
-
-        transform.position = Vector3.MoveTowards(transform.position, pos, Time.deltaTime * speed);
+            GetComponent<Image>().sprite = look;
         
+        transform.position = Vector3.MoveTowards(transform.position, pos, Time.deltaTime * speed);
     }
 
     void OnCollisionEnter2D()

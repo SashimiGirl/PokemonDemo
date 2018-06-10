@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
@@ -8,13 +7,12 @@ public class PokeSwitch : MonoBehaviour {
     public Canvas pokeMenu;
     public GameObject[] pokeSprite;
     public Button[] pokeButton = new Button[4];
-    //private ChosenOneStats ChosenOneStats;
-    private TeamSetUp TeamSetUp;
-    private Fighting Fighting;
-    private OpponentPokemon OpponentPokemon;
+    private BagStuff bagStuff;
+    private Fighting fighting;
+    private OpponentPokemon opponentPokemon;
 
-    public Text Choose;
-    public Text Release;
+    public Text choose;
+    public Text release;
     public bool anymore = false;
     const int WALKINGSCENE = 1;
     const int SIZE = 4;
@@ -22,25 +20,20 @@ public class PokeSwitch : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        TeamSetUp = GameObject.Find("SetTeam").GetComponent<TeamSetUp>();
-        //ChosenOneStats = GameObject.Find("ChosenOne").GetComponent<ChosenOneStats>();
-        Fighting = GameObject.Find("Initial").GetComponent<Fighting>();
-        OpponentPokemon = GameObject.Find("WildThing").GetComponent<OpponentPokemon>();
+        bagStuff = GameObject.FindObjectOfType<BagStuff>();
+        fighting = GameObject.Find("Initial").GetComponent<Fighting>();
+        opponentPokemon = GameObject.Find("WildThing").GetComponent<OpponentPokemon>();
 
-        Fighting.chosenIndex = -1;
-        Debug.Log("Pokemon Name: " + TeamSetUp.pokePlaya[0].pokeName + "\nHp: " + TeamSetUp.pokePlaya[0].hp.ToString() + "\nAttack: " + TeamSetUp.pokePlaya[0].atk.ToString() + "\nSpeed: " + TeamSetUp.pokePlaya[0].sp.ToString() + "\nDefense: " + TeamSetUp.pokePlaya[0].def.ToString());
-
+        fighting.chosenIndex = -1;
+        
         for (int j = 0; j < SIZE; j++)
         {
-            if (TeamSetUp.pokePlaya[j].pokeName != "")
+            if (bagStuff.TeamSize() > j)
             {
-                Debug.Log("Poke here at " + j);
-                Debug.Log("Poke Name at " + j + " " + TeamSetUp.pokePlaya[j].pokeName);
-                pokeSprite[j].GetComponent<SpriteRenderer>().sprite = TeamSetUp.pokePlaya[j].pokeFront;
+                pokeSprite[j].GetComponent<Image>().sprite = bagStuff.pokePlaya[j].pokeFront;
             }
             else
             {
-                Debug.Log("No poke at " + j);
                 pokeSprite[j].SetActive(false);
                 pokeButton[j].gameObject.SetActive(false);
             }
@@ -50,22 +43,22 @@ public class PokeSwitch : MonoBehaviour {
     public void DeadPoke()
     {
         anymore = false;
-        if (Fighting.currentHP[0] <= 0 && pokeSprite[0].activeSelf)
+        if (fighting.currentHP[0] <= 0 && pokeSprite[0].activeSelf)
         {
             pokeSprite[0].SetActive(false);
             pokeButton[0].gameObject.SetActive(false);
         }
-        if (Fighting.currentHP[1] <= 0 && pokeSprite[1].activeSelf)
+        if (fighting.currentHP[1] <= 0 && pokeSprite[1].activeSelf)
         {
             pokeSprite[1].SetActive(false);
             pokeButton[1].gameObject.SetActive(false);
         }
-        if (Fighting.currentHP[2] <= 0 && pokeSprite[2].activeSelf)
+        if (fighting.currentHP[2] <= 0 && pokeSprite[2].activeSelf)
         {
             pokeSprite[2].SetActive(false);
             pokeButton[2].gameObject.SetActive(false);
         }
-        if (Fighting.currentHP[3] <= 0 && pokeSprite[3].activeSelf)
+        if (fighting.currentHP[3] <= 0 && pokeSprite[3].activeSelf)
         {
             pokeSprite[3].SetActive(false);
             pokeButton[3].gameObject.SetActive(false);
@@ -84,127 +77,143 @@ public class PokeSwitch : MonoBehaviour {
         pokeSprite[2].SetActive(true);
         pokeSprite[3].SetActive(true);
     }
-    public void GenRelease(int i)
+
+    public void Genrelease(int i)
     {
-        TeamSetUp.pokePlaya[i].pokeFront = OpponentPokemon.wildPoke.pokeFront;
-        TeamSetUp.pokePlaya[i].pokeBack = OpponentPokemon.wildPoke.pokeBack;
-        TeamSetUp.pokePlaya[i].pokeName = OpponentPokemon.wildPoke.pokeName;
-        TeamSetUp.pokePlaya[i].hp = OpponentPokemon.wildPoke.hp;
-        TeamSetUp.pokePlaya[i].atk = OpponentPokemon.wildPoke.atk;
-        TeamSetUp.pokePlaya[i].sp = OpponentPokemon.wildPoke.sp;
-        TeamSetUp.pokePlaya[i].def = OpponentPokemon.wildPoke.def;
+        bagStuff.pokePlaya[i].pokeFront = opponentPokemon.wildPoke.pokeFront;
+        bagStuff.pokePlaya[i].pokeBack = opponentPokemon.wildPoke.pokeBack;
+        bagStuff.pokePlaya[i].pokeName = opponentPokemon.wildPoke.pokeName;
+        bagStuff.pokePlaya[i].hp = opponentPokemon.wildPoke.hp;
+        bagStuff.pokePlaya[i].atk = opponentPokemon.wildPoke.atk;
+        bagStuff.pokePlaya[i].sp = opponentPokemon.wildPoke.sp;
+        bagStuff.pokePlaya[i].def = opponentPokemon.wildPoke.def;
         for (int j = 0; j < SIZE; j++)
         {
-            TeamSetUp.pokePlaya[i].attackName[j] = OpponentPokemon.wildPoke.attackName[j];
-            TeamSetUp.pokePlaya[i].description[j] = OpponentPokemon.wildPoke.description[j];
-            TeamSetUp.pokePlaya[i].attackPower[j] = OpponentPokemon.wildPoke.attackPower[j];
+            bagStuff.pokePlaya[i].attackName[j] = opponentPokemon.wildPoke.attackName[j];
+            bagStuff.pokePlaya[i].description[j] = opponentPokemon.wildPoke.description[j];
+            bagStuff.pokePlaya[i].attackPower[j] = opponentPokemon.wildPoke.attackPower[j];
         }
-        //Destroy(GameObject.Find("ChosenOne"));
-        SceneManager.LoadScene(WALKINGSCENE);
+        fighting.RunButton();
     }
 
     public void ReleaseCaught()
     {
-        //Destroy(GameObject.Find("ChosenOne"));
-        SceneManager.LoadScene(WALKINGSCENE);
-    }
-    public void Release0()
-    {
-        GenRelease(0);
-    }
-    public void Release1()
-    {
-        GenRelease(1);
-    }
-    public void Release2()
-    {
-        GenRelease(2);
-    }
-    public void Release3()
-    {
-        GenRelease(3);
+        fighting.RunButton();
     }
 
+    public void Release0()
+    {
+        Genrelease(0);
+    }
+
+    public void Release1()
+    {
+        Genrelease(1);
+    }
+
+    public void Release2()
+    {
+        Genrelease(2);
+    }
+
+    public void Release3()
+    {
+        Genrelease(3);
+    }
 
     public void HighlightReset()
     {
-        Release.text = "Who will you release?";
+        release.text = "Who will you release?";
     }
+
     public void HighlightCaught()
     {
-        Release.text = "Release " + OpponentPokemon.wildPoke.pokeName;
+        release.text = "release " + opponentPokemon.wildPoke.pokeName;
     }
+
     public void HighlightRelease0()
     {
-        Release.text = "Release " + TeamSetUp.pokePlaya[0].pokeName;
+        release.text = "release " + bagStuff.pokePlaya[0].pokeName;
     }
+
     public void HighlightRelease1()
     {
-        Release.text = "Release " + TeamSetUp.pokePlaya[1].pokeName;
+        release.text = "release " + bagStuff.pokePlaya[1].pokeName;
     }
+
     public void HighlightRelease2()
     {
-        Release.text = "Release " + TeamSetUp.pokePlaya[2].pokeName;
+        release.text = "release " + bagStuff.pokePlaya[2].pokeName;
     }
+
     public void HighlightRelease3()
     {
-        Release.text = "Release " + TeamSetUp.pokePlaya[3].pokeName;
+        release.text = "release " + bagStuff.pokePlaya[3].pokeName;
     }
 
     public void HighlightPoke()
     {
-        Choose.text = "Who will you choose?";
+        choose.text = "Who will you choose?";
     }
+
     public void HighlightExit()
     {
-        Choose.text = "Continue battling with " + TeamSetUp.pokePlaya[Fighting.chosenIndex].pokeName;
+        choose.text = "Continue battling with " + bagStuff.pokePlaya[fighting.chosenIndex].pokeName;
     }
+
     public void HighlightPoke0()
     {
-        if (Fighting.chosenIndex == 0)
+        if (fighting.chosenIndex == 0)
             HighlightExit();
         else
-            Choose.text = TeamSetUp.pokePlaya[0].pokeName;
+            choose.text = bagStuff.pokePlaya[0].pokeName;
     }
+
     public void HighlightPoke1()
     {
-        if (Fighting.chosenIndex == 1)
+        if (fighting.chosenIndex == 1)
             HighlightExit();
         else
-            Choose.text = TeamSetUp.pokePlaya[1].pokeName;
+            choose.text = bagStuff.pokePlaya[1].pokeName;
     }
+
     public void HighlightPoke2()
     {
-        if (Fighting.chosenIndex == 2)
+        if (fighting.chosenIndex == 2)
             HighlightExit();
         else
-            Choose.text = TeamSetUp.pokePlaya[2].pokeName;
+            choose.text = bagStuff.pokePlaya[2].pokeName;
     }
+
     public void HighlightPoke3()
     {
-        if (Fighting.chosenIndex == 3)
+        if (fighting.chosenIndex == 3)
             HighlightExit();
         else
-            Choose.text = TeamSetUp.pokePlaya[3].pokeName;
+            choose.text = bagStuff.pokePlaya[3].pokeName;
     }
+
     public void Poke0()
     {
-        Fighting.chosenIndex = 0;
-        Fighting.Switch();
+        fighting.chosenIndex = 0;
+        fighting.Switch();
     }
+
     public void Poke1()
     {
-        Fighting.chosenIndex = 1;
-        Fighting.Switch();
+        fighting.chosenIndex = 1;
+        fighting.Switch();
     }
+
     public void Poke2()
     {
-        Fighting.chosenIndex = 2;
-        Fighting.Switch();
+        fighting.chosenIndex = 2;
+        fighting.Switch();
     }
+
     public void Poke3()
     {
-        Fighting.chosenIndex = 3;
-        Fighting.Switch(); 
+        fighting.chosenIndex = 3;
+        fighting.Switch(); 
     }
 }

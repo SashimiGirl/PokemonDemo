@@ -1,12 +1,15 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class Fighting : MonoBehaviour
 {
-    public ChangeScene ChangeScene;
-    public PokemonStats PokemonStats;
+    public BagStuff bagStuff;
+    public PokeSwitch pokeSwitch;
+    public ChangeScene changeScene;
+    public PokemonStats pokemonStats;
+    public OpponentPokemon opponentPokemon;
+
     public PokemonStats.Stats[] chosenPoke = new PokemonStats.Stats[SIZE];
     public int[] currentHP = new int[SIZE];
 
@@ -56,10 +59,6 @@ public class Fighting : MonoBehaviour
 
     public GameObject wildThing;
     public GameObject pokemon; //Our pokemon Game Object
-    public BagStuff BagStuff; //Grabbing the bag shizzle
-    public TeamSetUp TeamSetUp;
-    public OpponentPokemon OpponentPokemon; //This is the randomly selected wild pokemon
-    public PokeSwitch PokeSwitch;
 
     const int WINSCENE = 5;
     const int WALKINGSCENE = 1; //This is the menu scene's build number
@@ -73,58 +72,51 @@ public class Fighting : MonoBehaviour
 
     void Start()
     {
-        BagStuff = GameObject.Find("TrainerBag").GetComponent<BagStuff>();
-        ChangeScene = GameObject.Find("SceneManager").GetComponent<ChangeScene>();
-        OpponentPokemon = GameObject.Find("WildThing").GetComponent<OpponentPokemon>(); //Grabing opponent script
-        TeamSetUp = GameObject.Find("SetTeam").GetComponent<TeamSetUp>();
-        PokeSwitch = GameObject.Find("PokeMenu").GetComponent<PokeSwitch>();
-        PokemonStats = GameObject.Find("Pokemon").GetComponent<PokemonStats>();
-        for (int j = 0; j < SIZE; j++)
+        //Grabbing scripts
+        bagStuff = GameObject.Find("TrainerBag").GetComponent<BagStuff>();
+        pokeSwitch = GameObject.Find("PokeMenu").GetComponent<PokeSwitch>();
+        pokemonStats = GameObject.Find("Pokemon").GetComponent<PokemonStats>();
+        changeScene = GameObject.Find("SceneManager").GetComponent<ChangeScene>();
+        opponentPokemon = GameObject.Find("WildThing").GetComponent<OpponentPokemon>();
+        /*
+        for (int j = 0; j < SIZE; j++) //Setting up pokemenu
             chosenPoke[j] = new PokemonStats.Stats();
-        for (int j = 0; j < SIZE; j++)
+        for (int j = 0; j < bagStuff.TeamSize(); j++)
         {
-            if (TeamSetUp.pokePlaya[j].pokeName != "")
+            if (bagStuff.pokePlaya[j].pokeName != "")
             {
-                Debug.Log("Team set up for poke playa begin fighting.");
-                Debug.Log("Pokemon Name: " + TeamSetUp.pokePlaya[0].pokeName + "\nHp: " + TeamSetUp.pokePlaya[0].hp.ToString() + "\nAttack: " + TeamSetUp.pokePlaya[0].atk.ToString() + "\nSpeed: " + TeamSetUp.pokePlaya[0].sp.ToString() + "\nDefense: " + TeamSetUp.pokePlaya[0].def.ToString());
-                chosenPoke[j].pokeFront = TeamSetUp.pokePlaya[j].pokeFront;
-                chosenPoke[j].pokeBack = TeamSetUp.pokePlaya[j].pokeBack;
-                chosenPoke[j].pokeName = TeamSetUp.pokePlaya[j].pokeName;
-                chosenPoke[j].hp = TeamSetUp.pokePlaya[j].hp;
-                chosenPoke[j].atk = TeamSetUp.pokePlaya[j].atk;
-                chosenPoke[j].sp = TeamSetUp.pokePlaya[j].sp;
-                chosenPoke[j].def = TeamSetUp.pokePlaya[j].def;
-                currentHP[j] = TeamSetUp.pokePlaya[j].hp;
+                chosenPoke[j].pokeFront = bagStuff.pokePlaya[j].pokeFront;
+                chosenPoke[j].pokeBack = bagStuff.pokePlaya[j].pokeBack;
+                chosenPoke[j].pokeName = bagStuff.pokePlaya[j].pokeName;
+                chosenPoke[j].hp = bagStuff.pokePlaya[j].hp;
+                chosenPoke[j].atk = bagStuff.pokePlaya[j].atk;
+                chosenPoke[j].sp = bagStuff.pokePlaya[j].sp;
+                chosenPoke[j].def = bagStuff.pokePlaya[j].def;
+                currentHP[j] = bagStuff.pokePlaya[j].hp;
                 for (int k = 0; k < SIZE; k++)
                 {
-                    chosenPoke[j].attackName[k] = TeamSetUp.pokePlaya[j].attackName[k];
-                    chosenPoke[j].description[k] = TeamSetUp.pokePlaya[j].description[k];
-                    chosenPoke[j].attackPower[k] = TeamSetUp.pokePlaya[j].attackPower[k];
+                    chosenPoke[j].attackName[k] = bagStuff.pokePlaya[j].attackName[k];
+                    chosenPoke[j].description[k] = bagStuff.pokePlaya[j].description[k];
+                    chosenPoke[j].attackPower[k] = bagStuff.pokePlaya[j].attackPower[k];
                 }
 
             }
             else
                 break;
+        }*/
+        for (int k = 0; k < bagStuff.TeamSize(); k++)
+        {
+            currentHP[k] = bagStuff.pokePlaya[k].hp;
         }
-
         Switch();
         PokemonSwitch();
         exit.gameObject.SetActive(false);
-
-        /*
-        if (GameObject.Find("ChosenOne").GetComponent<SpriteRenderer>().sprite != growlitheback)
-        { //Changing the size of the pokemon that are not growlithe...
-            pokemon.transform.localScale += new Vector3(6.381F, 6.381F, 6.381F); //I won't need this when they...
-            pokemon.transform.position += new Vector3(0, 0.14f, 0); //Are all the same size
-        }
-       */
-        //Switch();
     }
 
     public void Switch()
-    { 
-        pokemon.GetComponent<SpriteRenderer>().sprite = chosenPoke[chosenIndex].pokeBack;
+    {
         //Changing our pokemon pic to the correct pokemon
+        pokemon.GetComponent<Image>().sprite = bagStuff.pokePlaya[chosenIndex].pokeBack;
 
         garyObject.SetActive(false);
         pokeballObject.SetActive(false);
@@ -132,12 +124,13 @@ public class Fighting : MonoBehaviour
         pokemon.SetActive(true);
         wildThing.SetActive(true);
 
-        pokemonName.text = chosenPoke[chosenIndex].pokeName; //Setting our pokemon's name to the one chosen
-        healthNum.text = currentHP[chosenIndex].ToString() + "/" + chosenPoke[chosenIndex].hp.ToString(); //Setting the initial health for our pokemon
-        commands.text = "What will " + chosenPoke[chosenIndex].pokeName + " do?"; //Asking the user to choose something
+        pokemonName.text = bagStuff.pokePlaya[chosenIndex].pokeName; //Setting our pokemon's name to the one chosen
+        healthNum.text = currentHP[chosenIndex].ToString() + "/" + bagStuff.pokePlaya[chosenIndex].hp.ToString(); //Setting the initial health for our pokemon
+        commands.text = "What will " + bagStuff.pokePlaya[chosenIndex].pokeName + " do?"; //Asking the user to choose something
         initial.enabled = true; //Turns on the initial menu by turning off canvas
         attacks.enabled = false; //Turns off the attack menu by turning off canvas
         bag.enabled = false; //Turns off the pokemon bag
+        bribe.enabled = false;
         releaseMenu.enabled = false;
         pokeMenu.enabled = false;
         hp.enabled = true;
@@ -158,38 +151,38 @@ public class Fighting : MonoBehaviour
 
         for (int i = 0; i < SIZE; i ++)
         {
-            attackName[i].text = chosenPoke[chosenIndex].attackName[i];
-            attackPower[i] = chosenPoke[chosenIndex].attackPower[i];
+            attackName[i].text = bagStuff.pokePlaya[chosenIndex].attackName[i];
+            attackPower[i] = bagStuff.pokePlaya[chosenIndex].attackPower[i];
         }
     }
 
     public void WildDead() //Changing the scene if the wild pokemon... faints
     {
-        ChangeScene.ChangeToScene(WINSCENE);
+        changeScene.ChangeToScene(WINSCENE);
     } 
 
     public void PokeDied()
     {
-        PokeSwitch.DeadPoke();
-        if(PokeSwitch.anymore)
+        pokeSwitch.DeadPoke();
+        if(pokeSwitch.anymore)
         {
             PokemonSwitch();
             exit.gameObject.SetActive(false);
         }
         else
         {
-            ChangeScene.ChangeToScene(POKECENTER);
+            changeScene.ChangeToScene(POKECENTER);
         }
     }
 
     public void RunButton()
     {
-        ChangeScene.ExitBattle();
+        changeScene.ExitBattle();
     }
 
     public void LikeTheWind() //Chaning the scene if trainer runs... dif from wild dead if we want to add experience/not being able to run...
     {
-        commands.text = "What would you like to use to try bribing the wild " + OpponentPokemon.wildPoke.pokeName + "?";
+        commands.text = "What would you like to use to try bribing the wild " + opponentPokemon.wildPoke.pokeName + "?";
         initial.enabled = false; //Turns off the initial menu by turning off canvas
         attacks.enabled = false; //Turns off the attack menu by turning off canvas
 
@@ -199,41 +192,41 @@ public class Fighting : MonoBehaviour
         bOption4.gameObject.SetActive(false);
         bribe.enabled = true; //Turns on the pokemon bag
         bBackButton.gameObject.SetActive(true);
-        if (BagStuff.berries == EMPTY)
+        if (bagStuff.berries == EMPTY)
         {
-            commands.text = "You have nothing to use in your bag...\nYou can't bribe the wild " + OpponentPokemon.wildPoke.pokeName + "...\nGood luck!";
+            commands.text = "You have nothing to use in your bag...\nYou can't bribe the wild " + opponentPokemon.wildPoke.pokeName + "...\nGood luck!";
         }
         else
         {
-             if (BagStuff.berries > 0)
+             if (bagStuff.berries > 0)
             {
-                bOption1.GetComponentInChildren<Text>().text = "x" + BagStuff.berries;
+                bOption1.GetComponentInChildren<Text>().text = "x" + bagStuff.berries;
                 bOption1.gameObject.SetActive(true);
-                bOption1.GetComponent<Image>().sprite = BagStuff.berryPic;
+                bOption1.GetComponent<Image>().sprite = bagStuff.berryPic;
             }
         }
     }
 
-    public void bribeOption1()
+    public void BribeOption1()
     {
-        BagStuff.berries--;
+        bagStuff.berries--;
         StartCoroutine(BerryPlay());
     }
 
     IEnumerator BerryPlay()
     {
+        bribe.enabled = false;
         pokemon.SetActive(false);
         garyObject.SetActive(true);
-        yield return new WaitForSeconds(.5f);
+        yield return new WaitForSeconds(0.65f);
         berryObject.SetActive(true);
-
 
         yield return new WaitForSeconds(1.35f);
         berryObject.GetComponent<Animator>().speed = 0;
         runChance = Random.Range(0, 50);
         if (runChance != 2)
         {
-            commands.text = "The wild " + OpponentPokemon.wildPoke.pokeName + " is distracted by the berry!";
+            commands.text = "The wild " + opponentPokemon.wildPoke.pokeName + " is distracted by the berry!";
 
             runOption.gameObject.SetActive(true);
             yield return new WaitForSeconds(2f);
@@ -242,7 +235,7 @@ public class Fighting : MonoBehaviour
         }
         else
         {
-            commands.text = "The wild " + OpponentPokemon.wildPoke.pokeName + " did not like the berry!";
+            commands.text = "The wild " + opponentPokemon.wildPoke.pokeName + " did not like the berry!";
             wildThing.GetComponent<Animator>().SetBool("Smack", true);
 
             yield return new WaitForSeconds(.2f);
@@ -268,64 +261,43 @@ public class Fighting : MonoBehaviour
         option4.gameObject.SetActive(false);
         bag.enabled = true; //Turns on the pokemon bag
         backButton.gameObject.SetActive(true);
-        if (BagStuff.pokeballs == EMPTY && BagStuff.berries == EMPTY)
+        if (bagStuff.pokeballs == EMPTY && bagStuff.berries == EMPTY)
         {
             commands.text = "You have nothing to use in your bag...\nYou're probably in trouble...\nGood luck!";
         }
         else
         {
-            if (BagStuff.pokeballs > 0)
+            if (bagStuff.pokeballs > 0)
             {
-                option1.GetComponentInChildren<Text>().text = "x" + BagStuff.pokeballs;
+                option1.GetComponentInChildren<Text>().text = "x" + bagStuff.pokeballs;
                 option1.gameObject.SetActive(true);
-                option1.GetComponent<Image>().sprite = BagStuff.pokeballPic;
+                option1.GetComponent<Image>().sprite = bagStuff.pokeballPic;
             }
-            /*
-            else if (BagStuff.berries > 0)
-            {
-                option1.GetComponentInChildren<Text>().text = "x" + BagStuff.berries;
-                option1.gameObject.SetActive(true);
-                option1.GetComponent<Image>().sprite = BagStuff.berryPic;
-            }
-            if(BagStuff.pokeballs > 0 && BagStuff.berries > 0)
-            {
-                option1.GetComponentInChildren<Text>().text = "x" + BagStuff.pokeballs;
-                option1.gameObject.SetActive(true);
-                option1.GetComponent<Image>().sprite = BagStuff.pokeballPic;
-                option2.GetComponentInChildren<Text>().text = "x" + BagStuff.berries;
-                option2.gameObject.SetActive(true);
-                option2.GetComponent<Image>().sprite = BagStuff.berryPic;
-            }
-            */
         }
     }
 
     public void Option1Button()
     {
-        if(option1.GetComponentInChildren<Text>().text == "x" + BagStuff.berries)
+        if(option1.GetComponentInChildren<Text>().text == "x" + bagStuff.berries)
         {
             //Do berry stuffz
         }
-        if(option1.GetComponentInChildren<Text>().text == "x" + BagStuff.pokeballs)
+        if(option1.GetComponentInChildren<Text>().text == "x" + bagStuff.pokeballs)
         {
-            Debug.Log("Before Pokeball");
             bag.enabled = false;
             StartCoroutine(PokePlay());
-            Debug.Log("After Pokeball");
         }
     }
     public void Option2Button()
     {
-        if (option1.GetComponentInChildren<Text>().text == "x" + BagStuff.berries)
+        if (option1.GetComponentInChildren<Text>().text == "x" + bagStuff.berries)
         {
             //Do berry stuffz
         }
-        if (option1.GetComponentInChildren<Text>().text == "x" + BagStuff.pokeballs)
+        if (option1.GetComponentInChildren<Text>().text == "x" + bagStuff.pokeballs)
         {
-            Debug.Log("Before Pokeball");
             bag.enabled = false;
             StartCoroutine(PokePlay());
-            Debug.Log("After Pokeball");
         }
     }
 
@@ -333,30 +305,30 @@ public class Fighting : MonoBehaviour
     {
         pokemon.SetActive(false);
         garyObject.SetActive(true);
-        yield return new WaitForSeconds(.5f);
+        yield return new WaitForSeconds(0.65f);
         pokeballObject.SetActive(true);
 
         yield return new WaitForSeconds(1.3f);
 
         wildThing.SetActive(false);
 
-        if (OpponentPokemon.currentHP / OpponentPokemon.wildPoke.hp > 0.9f)
+        if (opponentPokemon.currentHP / opponentPokemon.wildPoke.hp > 0.9f)
             pokeCatch = Random.Range(0, 50);
-        else if (OpponentPokemon.currentHP / OpponentPokemon.wildPoke.hp > 0.7f)
+        else if (opponentPokemon.currentHP / opponentPokemon.wildPoke.hp > 0.7f)
             pokeCatch = Random.Range(0, 40);
-        else if (OpponentPokemon.currentHP / OpponentPokemon.wildPoke.hp > 0.5f)
+        else if (opponentPokemon.currentHP / opponentPokemon.wildPoke.hp > 0.5f)
             pokeCatch = Random.Range(0, 30);
-        else if (OpponentPokemon.currentHP / OpponentPokemon.wildPoke.hp > 0.3f)
+        else if (opponentPokemon.currentHP / opponentPokemon.wildPoke.hp > 0.3f)
             pokeCatch = Random.Range(0, 15);
-        else if (OpponentPokemon.currentHP / OpponentPokemon.wildPoke.hp > 0.1f)
+        else if (opponentPokemon.currentHP / opponentPokemon.wildPoke.hp > 0.1f)
             pokeCatch = Random.Range(0, 4);
-        else if (OpponentPokemon.currentHP / OpponentPokemon.wildPoke.hp <= 0.1f)
+        else if (opponentPokemon.currentHP / opponentPokemon.wildPoke.hp <= 0.1f)
             pokeCatch = 2;
-        Debug.Log(pokeCatch);
 
         if (pokeCatch == 2)
         {
             yield return new WaitForSeconds(5f);
+            commands.text = "You caught " + opponentPokemon.wildPoke.pokeName + "!";
         }
         else
         {
@@ -370,49 +342,31 @@ public class Fighting : MonoBehaviour
 
     public void Pokeball()
     {
-        Debug.Log("Pokeball Called");
-        BagStuff.pokeballs -= 1;
+        bagStuff.pokeballs -= 1;
         if (pokeCatch == 2)
         {
-            bool full = true;
-            for (int j = 0; j < SIZE; j++)
+            if (bagStuff.TeamSize() < BagStuff.MAXSIZE)
             {
-                if (TeamSetUp.pokePlaya[j].pokeName == "")
-                {
-                    if (OpponentPokemon.wildPoke.pokeName == "Growlithe")
-                        TeamSetUp.GrStats(j);
-                    else if (OpponentPokemon.wildPoke.pokeName == "Eevee")
-                        TeamSetUp.EvStats(j);
-                    else if (OpponentPokemon.wildPoke.pokeName == "Mudkip")  
-                        TeamSetUp.MuStats(j);
-                    else if (OpponentPokemon.wildPoke.pokeName == "Psyduck")
-                        TeamSetUp.PsStats(j);
-                    full = false;
-                    break;
-                }
-            }
-            if (full)
+                bagStuff.pokePlaya.Add(opponentPokemon.wildPoke);
+                changeScene.ExitBattle();
+            } else
             {
                 PokemonSwitch();
                 pokeMenu.enabled = false;
-                PokeSwitch.ResetForRelease();
+                pokeSwitch.ResetForRelease();
                 releaseMenu.enabled = true;
-            }
-            else
-            {
-                ChangeScene.ExitBattle();
             }
         }
         else
         {
             Switch();
-            commands.text = OpponentPokemon.wildPoke.pokeName + " faught its way free.\nWhat will " + chosenPoke[chosenIndex].pokeName + " do?";
-            double opdamage = (double)OpponentPokemon.wildPoke.atk / (double)chosenPoke[chosenIndex].def * (double)OpponentPokemon.power;
+            commands.text = opponentPokemon.wildPoke.pokeName + " faught its way free.\nWhat will " + bagStuff.pokePlaya[chosenIndex].pokeName + " do?";
+            double opdamage = (double)opponentPokemon.wildPoke.atk / (double)bagStuff.pokePlaya[chosenIndex].def * (double)opponentPokemon.power;
             currentHP[chosenIndex] = currentHP[chosenIndex] - (int)opdamage;
 
-            OpponentPokemon.wildHealthNum.text = OpponentPokemon.currentHP.ToString() + "/" + OpponentPokemon.wildPoke.hp.ToString();
+            opponentPokemon.wildHealthNum.text = opponentPokemon.currentHP.ToString() + "/" + opponentPokemon.wildPoke.hp.ToString();
 
-            if (OpponentPokemon.currentHP <= DEAD)
+            if (opponentPokemon.currentHP <= DEAD)
             {
                 WildDead();
             }
@@ -424,8 +378,7 @@ public class Fighting : MonoBehaviour
         initial.enabled = true; //Turns on the initial menu by turning off canvas
         attacks.enabled = false; //Turns off the attack menu by turning off canvas
         words.enabled = true;
-        //PokemonBag.enabled = false; //Turns off the pokemon bag
-        commands.text = "What will " + chosenPoke[chosenIndex].pokeName + " do?";
+        commands.text = "What will " + bagStuff.pokePlaya[chosenIndex].pokeName + " do?";
         bribe.enabled = false;
         bOption1.gameObject.SetActive(false);
         bOption2.gameObject.SetActive(false);
@@ -465,47 +418,48 @@ public class Fighting : MonoBehaviour
 
     public void FightSwitch() //Change from initial menu to attack menu when Fight button is clicked
     {
-        commands.text = "Which attack should " + chosenPoke[chosenIndex].pokeName + " use?"; //Self explanitory
+        commands.text = "Which attack should " + bagStuff.pokePlaya[chosenIndex].pokeName + " use?"; //Self explanitory
         initial.enabled = false; //Turns off the attack menu by turning off canvas
         attacks.enabled = true;//Turns on the attack menu by turning off canvas
     }
 
     public void HighlightReset()
     {
-        commands.text = "What will " + chosenPoke[chosenIndex].pokeName + " do?";
+        commands.text = "What will " + bagStuff.pokePlaya[chosenIndex].pokeName + " do?";
     }
     public void HighlightAttack1()
     {
-        commands.text = chosenPoke[chosenIndex].description[0];
+        commands.text = bagStuff.pokePlaya[chosenIndex].description[0];
     }
     public void HighlightAttack2()
     {
-        commands.text = chosenPoke[chosenIndex].description[1];
+        commands.text = bagStuff.pokePlaya[chosenIndex].description[1];
     }
     public void HighlightAttack3()
     {
-        commands.text = chosenPoke[chosenIndex].description[2];
+        commands.text = bagStuff.pokePlaya[chosenIndex].description[2];
     }
     public void HighlightAttack4()
     {
-        commands.text = chosenPoke[chosenIndex].description[3];
+        commands.text = bagStuff.pokePlaya[chosenIndex].description[3];
     }
     
     IEnumerator AttackCalc(int i)
     {
-        OpponentPokemon.WildAttack();
-        double mydamage = (double)chosenPoke[chosenIndex].atk / (double)OpponentPokemon.wildPoke.def * (double)attackPower[i];
-        double opdamage = (double)OpponentPokemon.wildPoke.atk / (double)chosenPoke[chosenIndex].def * (double)OpponentPokemon.power;
+        attacks.enabled = false; //Returns to initial menu
+        opponentPokemon.WildAttack();
+        double mydamage = (double)bagStuff.pokePlaya[chosenIndex].atk / (double)opponentPokemon.wildPoke.def * (double)attackPower[i];
+        double opdamage = (double)opponentPokemon.wildPoke.atk / (double)bagStuff.pokePlaya[chosenIndex].def * (double)opponentPokemon.power;
 
-        if (chosenPoke[chosenIndex].sp >= OpponentPokemon.wildPoke.sp)
+        if (bagStuff.pokePlaya[chosenIndex].sp >= opponentPokemon.wildPoke.sp)
         {
             pokemon.GetComponent<Animator>().SetBool("Attack", true);
             yield return new WaitForSeconds(.5f);
             pokemon.GetComponent<Animator>().SetBool("Attack", false);
 
-            OpponentPokemon.currentHP = OpponentPokemon.currentHP - (int)mydamage;
-            OpponentPokemon.wildHealthNum.text = OpponentPokemon.currentHP.ToString() + "/" + OpponentPokemon.wildPoke.hp.ToString();
-            if (OpponentPokemon.currentHP <= DEAD)
+            opponentPokemon.currentHP = opponentPokemon.currentHP - (int)mydamage;
+            opponentPokemon.wildHealthNum.text = opponentPokemon.currentHP.ToString() + "/" + opponentPokemon.wildPoke.hp.ToString();
+            if (opponentPokemon.currentHP <= DEAD)
             {
                 WildDead();
             }
@@ -515,7 +469,7 @@ public class Fighting : MonoBehaviour
                 yield return new WaitForSeconds(.5f);
                 wildThing.GetComponent<Animator>().SetBool("Smack", false);
                 currentHP[chosenIndex] = currentHP[chosenIndex] - (int)opdamage;
-                healthNum.text = currentHP[chosenIndex].ToString() + "/" + chosenPoke[chosenIndex].hp.ToString();
+                healthNum.text = currentHP[chosenIndex].ToString() + "/" + bagStuff.pokePlaya[chosenIndex].hp.ToString();
             }
         }
         else
@@ -524,7 +478,7 @@ public class Fighting : MonoBehaviour
             yield return new WaitForSeconds(.5f);
             wildThing.GetComponent<Animator>().SetBool("Smack", false);
             currentHP[chosenIndex] = currentHP[chosenIndex] - (int)opdamage;
-            healthNum.text = currentHP[chosenIndex].ToString() + "/" + chosenPoke[chosenIndex].hp.ToString();
+            healthNum.text = currentHP[chosenIndex].ToString() + "/" + bagStuff.pokePlaya[chosenIndex].hp.ToString();
             if (currentHP[chosenIndex] <= DEAD)
             {
                 PokeDied();
@@ -534,12 +488,12 @@ public class Fighting : MonoBehaviour
                 pokemon.GetComponent<Animator>().SetBool("Attack", true);
                 yield return new WaitForSeconds(.5f);
                 pokemon.GetComponent<Animator>().SetBool("Attack", false);
-                OpponentPokemon.currentHP = OpponentPokemon.currentHP - (int)mydamage;
-                OpponentPokemon.wildHealthNum.text = OpponentPokemon.currentHP.ToString() + "/" + OpponentPokemon.wildPoke.hp.ToString();
+                opponentPokemon.currentHP = opponentPokemon.currentHP - (int)mydamage;
+                opponentPokemon.wildHealthNum.text = opponentPokemon.currentHP.ToString() + "/" + opponentPokemon.wildPoke.hp.ToString();
             }
         }
 
-        if (OpponentPokemon.currentHP <= DEAD)
+        if (opponentPokemon.currentHP <= DEAD)
         {
             WildDead();
         }
@@ -549,8 +503,7 @@ public class Fighting : MonoBehaviour
         }
         else
         {
-            commands.text = "What will " + chosenPoke[chosenIndex].pokeName + " do?";
-            attacks.enabled = false; //Returns to initial menu
+            commands.text = "What will " + bagStuff.pokePlaya[chosenIndex].pokeName + " do?";
             initial.enabled = true; //Turns off the attack menu
         }
     }
